@@ -1,5 +1,5 @@
 {
-    "version": "2021.2.5-212.5712.34",
+    "version": "2021.3.2-213.6461.81",
     "description": "GoLand. Cross-Platform, Clever IDE to Go by JetBrains.",
     "homepage": "https://www.jetbrains.com/goland/",
     "license": {
@@ -7,11 +7,11 @@
         "url": "https://www.jetbrains.com/store/license.html"
     },
     "url": [
-        "https://download.jetbrains.com/go/goland-2021.2.5.exe#/cosi.7z",
+        "https://download.jetbrains.com/go/goland-2021.3.2.exe#/cosi.7z",
         "https://raw.githubusercontent.com/DestinyHunter/scoop-app/main/scripts/portable.ps1"
     ],
     "hash": [
-        "011AB3AA71DB0BA2A6584F38568C272D97996F0CB8DF6CB5A6B8EC76D0FBF176",
+        "2500f98cf0432b1626ccc133168e19a808ae4f1e2d4a526521e693dd7880ab88",
         "5b43fc8a57d7d8d519071a50849a5db92c90ecdf56b64ac57f15fdae5b4f0572"
     ],
     "extract_to": "IDE",
@@ -25,16 +25,32 @@
         "64bit": {
             "bin": [
                 "IDE\\bin\\goland64.exe",
-                ["IDE\\bin\\goland64.exe", "goland"]
+                [
+                    "IDE\\bin\\goland64.exe",
+                    "goland"
+                ]
             ],
-            "shortcuts": [["IDE\\bin\\goland64.exe", "JetBrains\\GoLand"]]
+            "shortcuts": [
+                [
+                    "IDE\\bin\\goland64.exe",
+                    "JetBrains\\GoLand"
+                ]
+            ]
         },
         "32bit": {
             "bin": "IDE\\bin\\goland.exe",
-            "shortcuts": [["IDE\\bin\\goland.exe", "JetBrains\\GoLand"]]
+            "shortcuts": [
+                [
+                    "IDE\\bin\\goland.exe",
+                    "JetBrains\\GoLand"
+                ]
+            ]
         }
     },
-    "persist": ["IDE\\bin\\idea.properties", "profile"],
+    "persist": [
+        "IDE\\bin\\idea.properties",
+        "profile"
+    ],
     "checkver": {
         "url": "https://data.services.jetbrains.com/products/releases?code=GO&latest=true&platform=zip&type=release",
         "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
