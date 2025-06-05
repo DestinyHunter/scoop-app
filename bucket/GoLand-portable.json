@@ -1,5 +1,5 @@
 {
-    "version": "2025.1.1-251.25410.140",
+    "version": "2025.1.2-251.26094.127",
     "description": "GoLand. Cross-Platform, Clever IDE to Go by JetBrains.",
     "homepage": "https://www.jetbrains.com/goland/",
     "license": {
@@ -7,11 +7,11 @@
         "url": "https://www.jetbrains.com/store/license.html"
     },
     "url": [
-        "https://download.jetbrains.com/go/goland-2025.1.1.exe#/cosi.7z",
+        "https://download.jetbrains.com/go/goland-2025.1.2.exe#/cosi.7z",
         "https://raw.githubusercontent.com/DestinyHunter/scoop-app/main/scripts/portable.ps1"
     ],
     "hash": [
-        "e7314f41dae116435164e760f88baf3602272aa7d85c888ea9361338519c6e7d",
+        "e0a6c25ae220fa8ef42352b9c32d93f508d196fe906ed4135cdeafca6ac7cc06",
         "5b43fc8a57d7d8d519071a50849a5db92c90ecdf56b64ac57f15fdae5b4f0572"
     ],
     "extract_to": "IDE",
